@@ -8,7 +8,7 @@ Table 1: Analysis of 382 failed cases of SWE-agent. "Configure fail" indicates t
 
 
 Table 2: 
-| Programming language      | Docker base image                 | installation tool                    |
+| Programming language      | Docker base image                 | Installation tool                    |
 |---------------|--------------------------|-----------------------------|
 | Python        | python:[version]         | pip                         |
 | JavaScript/TypeScript    | node:[version]           | npm / yarn                  |
