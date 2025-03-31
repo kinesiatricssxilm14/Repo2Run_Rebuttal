@@ -17,5 +17,5 @@ Table 2: Language Support for Repo2Run Framework. The table below illustrates th
 | R             | r-base:[version]         | install.packages            |
 | Go            | golang:[version]         | go get                      |
 | PHP           | php:[version]            | composer                    |
-| C++           | gcc:[version]            | custom build scripts        |
+| C/C++         | gcc:[version]            | custom build scripts        |
 | Rust          | rust:[version]           | cargo                       |
