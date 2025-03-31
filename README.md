@@ -20,7 +20,7 @@ Table 2: Language Support for Repo2Run Framework. The table below illustrates th
 | C/C++         | gcc:[version]            | custom build scripts        |
 | Rust          | rust:[version]           | cargo                       |
 
-Table 3: 
+Table 3: Statistics on Lines of Code (LOC) for repositories in the benchmark. The table below illustrates the statistics regarding the lines of code (LOC) of all repositories in the benchmark. It separately counts the number of repositories with LOC greater than 10,000 and greater than 100,000. The last two rows provide reference LOC for well-known repositories.
 | **Configuration state** | **#LOC > 10,000** | **#LOC > 100,000** | **Medium** | **Max** |
 |----------|----------|----------|----------|----------|
 | Success(361) | 220(60.9%) | 27(7.5%) |14,578|6,431,084|
