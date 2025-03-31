@@ -5,3 +5,17 @@ Table 1: Analysis of 382 failed cases of SWE-agent. "Configure fail" indicates t
 | **Configure fail** | **Path error** | **Dependency Error** | **Other Error** |
 |----------|----------|----------|----------|
 | 79(20.7%) | 170(44.5%) | 117(30.6%) | 16(4.2%) |
+
+
+Table 2: 
+| Programming language      | Docker base image                 | installation tool                    |
+|---------------|--------------------------|-----------------------------|
+| Python        | python:[version]         | pip                         |
+| JavaScript/TypeScript    | node:[version]           | npm / yarn                  |
+| Ruby          | ruby:[version]           | bundler                     |
+| Java          | OpenJDK:[version]        | maven / gradle              |
+| R             | r-base:[version]         | install.packages            |
+| Go            | golang:[version]         | go get                      |
+| PHP           | php:[version]            | composer                    |
+| C++           | gcc:[version]            | custom build scripts        |
+| Rust          | rust:[version]           | cargo                       |
