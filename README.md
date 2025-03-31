@@ -7,13 +7,13 @@ Table 1: Analysis of 382 failed cases of SWE-agent. "Configure fail" indicates t
 | 79(20.7%) | 170(44.5%) | 117(30.6%) | 16(4.2%) |
 
 
-Table 2: 
+Table 2: Language Support for Repo2Run Framework. The table below illustrates the various programming languages that can be supported by the Repo2Run framework by adjusting the base image and installation tools. This flexibility showcases the framework's capability to adapt to multiple languages, beyond just Python.
 | Programming language      | Docker base image                 | Installation tool                    |
 |---------------|--------------------------|-----------------------------|
 | Python        | python:[version]         | pip                         |
-| JavaScript/TypeScript    | node:[version]           | npm / yarn                  |
+| JavaScript/TypeScript    | node:[version]| npm                         |
 | Ruby          | ruby:[version]           | bundler                     |
-| Java          | OpenJDK:[version]        | maven / gradle              |
+| Java          | OpenJDK:[version]        | maven                       |
 | R             | r-base:[version]         | install.packages            |
 | Go            | golang:[version]         | go get                      |
 | PHP           | php:[version]            | composer                    |
