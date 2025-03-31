@@ -29,3 +29,4 @@ Table 3:
 | requests(reference) | - | - |12,782|12,782|
 | scrapy(reference) | - | - |77,278|77,278|
 | flask(refenrence) | - | - |25,190|25,190|
+| pandas(reference) | - | - |571,849|571,849|
