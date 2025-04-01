@@ -1,6 +1,6 @@
 # Repo2Run_Rebuttal
 
-Re_Table 1: Language Support for Repo2Run Framework. It illustrates the various programming languages that can be supported by the Repo2Run framework by adjusting the base image and installation tools. This flexibility showcases the framework's capability to adapt to multiple languages, beyond just Python.
+Rebuttal Table 1: Language Support for Repo2Run Framework. It illustrates the various programming languages that can be supported by the Repo2Run framework by adjusting the base image and installation tools. This flexibility showcases the framework's capability to adapt to multiple languages, beyond just Python.
 | **Programming language**      | **Docker base image**                 | **Installation tool**                    |
 |---------------|--------------------------|-----------------------------|
 | Python        | python:[version]         | pip                         |
@@ -13,10 +13,10 @@ Re_Table 1: Language Support for Repo2Run Framework. It illustrates the various 
 | C/C++         | gcc:[version]            | custom build scripts        |
 | Rust          | rust:[version]           | cargo                       |
 
-Re_Figure 1: Our design for applying Repo2Run to Node.js.
+Rebuttal Figure 1: Our design for applying Repo2Run to Node.js.
 ![nodejs_design](nodejs_design.png)
 
-Re_Table 2: Data table for 28 fields of 420 repositories in our benchmark. We classify repositories in the following categories as ML/AI repositories: "Artificial Intelligence", "Reinforcement Learning", "Machine Learning", "Deep Learning", and "Large Language Models". The count of ML/AI repositories is 204 (48.57%).
+Rebuttal Table 2: Data table for 28 fields of 420 repositories in our benchmark. We classify repositories in the following categories as ML/AI repositories: "Artificial Intelligence", "Reinforcement Learning", "Machine Learning", "Deep Learning", and "Large Language Models". The count of ML/AI repositories is 204 (48.57%).
 | Type                    | Count | Type                      | Count | Type                             | Count |
 |-------------------------|-------|---------------------------|-------|----------------------------------|-------|
 | Large Language Models   | 135   | Deep Learning             | 53    | Natural Language Processing      | 47    |
@@ -30,7 +30,7 @@ Re_Table 2: Data table for 28 fields of 420 repositories in our benchmark. We cl
 | Operating System        | 1     | Video Generation          | 1     | Mobile Security                  | 1     |
 | Backend Development     | 1     |
 
-Re_Table 3: Statistics on Lines of Code (LOC) for repositories in our benchmark. The table below illustrates the statistics regarding the lines of code (LOC) of all repositories in the benchmark. It separately counts the number of repositories with LOC greater than 10,000 and greater than 100,000. The last two rows provide reference LOC for well-known industry-level repositories.
+Rebuttal Table 3: Statistics on Lines of Code (LOC) for repositories in our benchmark. The table below illustrates the statistics regarding the lines of code (LOC) of all repositories in the benchmark. It separately counts the number of repositories with LOC greater than 10,000 and greater than 100,000. The last two rows provide reference LOC for well-known industry-level repositories.
 | **Configuration state** | **#LOC > 10,000** | **#LOC > 100,000** | **Medium** | **Max** |
 |----------|----------|----------|----------|----------|
 | Success(361) | 220(60.9%) | 27(7.5%) |14,578|6,431,084|
@@ -39,14 +39,14 @@ Re_Table 3: Statistics on Lines of Code (LOC) for repositories in our benchmark.
 | requests(reference) | ✅ | - |12,782|12,782|
 | pandas(reference) | ✅ | ✅ |571,849|571,849|
 
-Re_Table 4: Evaluation of Repo2Run on 59 popular industry-grade repositories. The repositories were selected from [GitHub Ranking](https://github.com/EvanLi/Github-Ranking/blob/master/Top100/Python.md), filtering out those without tests and with #LOC < 10,000.
+Rebuttal Table 4: Evaluation of Repo2Run on 59 popular industry-grade repositories. The repositories were selected from [GitHub Ranking](https://github.com/EvanLi/Github-Ranking/blob/master/Top100/Python.md), filtering out those without tests and with #LOC < 10,000.
 | **Configuration state** | **#LOC > 10,000** | **#LOC > 100,000** | **Medium** | **Max** |
 |----------|----------|----------|----------|----------|
 | Success(30) | 30(100%) | 14(46.7%) |96,157|2,389,065|
 | Fail(29) | 29(100%) | 24(82.6%) |333,464|2,669,973|
 | All(59) | 59(100%)| 40(9.3%) |124,352|2,669,973|
 
-Re_Table 5: Successful additional configuration of 30 industry-grade repositories.
+Rebuttal Table 5: Successful additional configuration of 30 industry-grade repositories.
 | Repository                                            | #LOC | Repository                                            | #LOC | Repository                                            | #LOC |
 |-------------------------------------------------------|------------|-------------------------------------------------------|------------|-------------------------------------------------------|------------|
 | comfyanonymous/ComfyUI                                | 737,543    | OpenBB-finance/OpenBB                                 | 2,389,065  | scrapy/scrapy                                         | 77,278     |
@@ -60,7 +60,7 @@ Re_Table 5: Successful additional configuration of 30 industry-grade repositorie
 | All-Hands-AI/OpenHands                                | 160,514    | Stability-AI/stablediffusion                          | 13,698     | ultralytics/ultralytics                               | 94,201     |
 | gradio-app/gradio                                     | 184,722    | QuivrHQ/quivr                                         | 10,264     | freqtrade/freqtrade                                   | 188,889    |
 
-Re_Table 6: 30 examples of "pollution" during pip installation. Package_name represents the name of the package that failed to download, "pollution" represents other packages introduced by the failed download, and "pollution" count represents the number of these introduced packages.
+Rebuttal Table 6: 30 examples of "pollution" during pip installation. Package_name represents the name of the package that failed to download, "pollution" represents other packages introduced by the failed download, and "pollution" count represents the number of these introduced packages.
 | package_name | "pollution" | "pollution" count |
 |----------|----------|----------|
 | zbarlight | pillow | 1 |
