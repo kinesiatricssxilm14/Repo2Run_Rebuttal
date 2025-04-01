@@ -53,3 +53,25 @@ Table 5: Evaluation of Repo2Run on 59 popular industry-grade repositories. The r
 | Success(30) | 30(100%) | 14(46.7%) |96,157|2,389,065|
 | Fail(29) | 29(100%) | 24(82.6%) |333,464|2,669,973|
 | All(59) | 59(100%)| 40(9.3%) |124,352|2,669,973|
+
+Table 6: 
+
+| Repository                                            | Line Count | Repository                                         | Line Count |
+|-------------------------------------------------------|------------|--------------------------------------------------- |------------|
+| comfyanonymous/ComfyUI                                |            | geekan/MetaGPT                                     |            |
+| yt-dlp/yt-dlp                                         |            | streamlit/streamlit                                |            |
+| pallets/flask                                         |            | labmlai/annotated_deep_learning_paper_implementations |            |
+| deepfakes/faceswap                                    |            | OpenInterpreter/open-interpreter                   |            |
+| lllyasviel/Fooocus                                    |            | pandas-dev/pandas                                  |            |
+| mingrammer/diagrams                                   |            | fastapi/fastapi                                    |            |
+| nvbn/thefuck                                          |            | Stability-AI/stablediffusion                       |            |
+| TheAlgorithms/Python                                  |            | QuivrHQ/quivr                                      |            |
+| All-Hands-AI/OpenHands                                |            | scrapy/scrapy                                      |            |
+| gradio-app/gradio                                     |            | AUTOMATIC1111/stable-diffusion-webui               |            |
+| OpenBB-finance/OpenBB                                 |            | psf/black                                          |            |
+| keras-team/keras                                      |            | psf/requests                                       |            |
+| deepfakes/faceswap                                    |            | RVC-Boss/GPT-SoVITS                                |            |
+| nvbn/thefuck                                          |            | freqtrade/freqtrade                                |            |
+| ytdl-org/youtube-dl                                   |            | Textualize/rich                                    |            |
+| ultralytics/ultralytics                               |            | hiyouga/LLaMA-Factory                              |            |
+| frequenttrade/frequenttrade                           |            | Backed by GT Sil.                                  |            |
