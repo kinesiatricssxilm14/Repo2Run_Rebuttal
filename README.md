@@ -47,5 +47,9 @@ Table 4: Statistics on Lines of Code (LOC) for repositories in our benchmark. Th
 | requests(reference) | ✅ | - |12,782|12,782|
 | pandas(reference) | ✅ | ✅ |571,849|571,849|
 
-Table 5: Evaluation of Repo2Run on 61 popular industry-grade repositories. The repositories were selected from [GitHub Ranking](https://github.com/EvanLi/Github-Ranking/blob/master/Top100/Python.md), filtering out those without tests and with #LOC < 10,000.
-
+Table 5: Evaluation of Repo2Run on 59 popular industry-grade repositories. The repositories were selected from [GitHub Ranking](https://github.com/EvanLi/Github-Ranking/blob/master/Top100/Python.md), filtering out those without tests and with #LOC < 10,000.
+| **Configuration state** | **#LOC > 10,000** | **#LOC > 100,000** | **Medium** | **Max** |
+|----------|----------|----------|----------|----------|
+| Success(30) | 30(100%) | 14(46.7%) |96,157|2,389,065|
+| Fail(29) | 29(100%) | 24(82.6%) |333,464|2,669,973|
+| All(59) | 59(100%)| 40(9.3%) |124,352|2,669,973|
