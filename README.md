@@ -56,22 +56,15 @@ Table 5: Evaluation of Repo2Run on 59 popular industry-grade repositories. The r
 
 Table 6: 
 
-| Repository                                            | Line Count | Repository                                         | Line Count |
-|-------------------------------------------------------|------------|--------------------------------------------------- |------------|
-| comfyanonymous/ComfyUI                                |            | geekan/MetaGPT                                     |            |
-| yt-dlp/yt-dlp                                         |            | streamlit/streamlit                                |            |
-| pallets/flask                                         |            | labmlai/annotated_deep_learning_paper_implementations |            |
-| deepfakes/faceswap                                    |            | OpenInterpreter/open-interpreter                   |            |
-| lllyasviel/Fooocus                                    |            | pandas-dev/pandas                                  |            |
-| mingrammer/diagrams                                   |            | fastapi/fastapi                                    |            |
-| nvbn/thefuck                                          |            | Stability-AI/stablediffusion                       |            |
-| TheAlgorithms/Python                                  |            | QuivrHQ/quivr                                      |            |
-| All-Hands-AI/OpenHands                                |            | scrapy/scrapy                                      |            |
-| gradio-app/gradio                                     |            | AUTOMATIC1111/stable-diffusion-webui               |            |
-| OpenBB-finance/OpenBB                                 |            | psf/black                                          |            |
-| keras-team/keras                                      |            | psf/requests                                       |            |
-| deepfakes/faceswap                                    |            | RVC-Boss/GPT-SoVITS                                |            |
-| nvbn/thefuck                                          |            | freqtrade/freqtrade                                |            |
-| ytdl-org/youtube-dl                                   |            | Textualize/rich                                    |            |
-| ultralytics/ultralytics                               |            | hiyouga/LLaMA-Factory                              |            |
-| frequenttrade/frequenttrade                           |            | Backed by GT Sil.                                  |            |
+| Repository                                            | #LOC | Repository                                            | #LOC | Repository                                            | #LOC |
+|-------------------------------------------------------|------------|-------------------------------------------------------|------------|-------------------------------------------------------|------------|
+| comfyanonymous/ComfyUI                                |            | OpenBB-finance/OpenBB                                 |            | scrapy/scrapy                                         |            |
+| yt-dlp/yt-dlp                                         |            | keras-team/keras                                      |            | AUTOMATIC1111/stable-diffusion-webui                  |            |
+| pallets/flask                                         |            | geekan/MetaGPT                                        |            | psf/black                                             |            |
+| deepfakes/faceswap                                    |            | streamlit/streamlit                                   |            | psf/requests                                          |            |
+| lllyasviel/Fooocus                                    |            | labmlai/annotated_deep_learning_paper_implementations |            | RVC-Boss/GPT-SoVITS                                   |            |
+| mingrammer/diagrams                                   |            | OpenInterpreter/open-interpreter                      |            | hiyouga/LLaMA-Factory                                 |            |
+| nvbn/thefuck                                          |            | pandas-dev/pandas                                     |            | ytdl-org/youtube-dl                                   |            |
+| TheAlgorithms/Python                                  |            | fastapi/fastapi                                       |            | Textualize/rich                                       |            |
+| All-Hands-AI/OpenHands                                |            | Stability-AI/stablediffusion                          |            | ultralytics/ultralytics                               |            |
+| gradio-app/gradio                                     |            | QuivrHQ/quivr                                         |            | freqtrade/freqtrade                                   |            |
