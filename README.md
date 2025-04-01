@@ -54,7 +54,7 @@ Table 5: Evaluation of Repo2Run on 59 popular industry-grade repositories. The r
 | Fail(29) | 29(100%) | 24(82.6%) |333,464|2,669,973|
 | All(59) | 59(100%)| 40(9.3%) |124,352|2,669,973|
 
-Table 6: Additional configuration of 30 industry-grade repositories.
+Table 6: Successful additional configuration of 30 industry-grade repositories.
 
 | Repository                                            | #LOC | Repository                                            | #LOC | Repository                                            | #LOC |
 |-------------------------------------------------------|------------|-------------------------------------------------------|------------|-------------------------------------------------------|------------|
