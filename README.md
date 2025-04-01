@@ -53,7 +53,6 @@ Table 5: Evaluation of Repo2Run on 59 popular industry-grade repositories. The r
 | All(59) | 59(100%)| 40(9.3%) |124,352|2,669,973|
 
 Table 6: Successful additional configuration of 30 industry-grade repositories.
-
 | Repository                                            | #LOC | Repository                                            | #LOC | Repository                                            | #LOC |
 |-------------------------------------------------------|------------|-------------------------------------------------------|------------|-------------------------------------------------------|------------|
 | comfyanonymous/ComfyUI                                | 737,543    | OpenBB-finance/OpenBB                                 | 2,389,065  | scrapy/scrapy                                         | 77,278     |
