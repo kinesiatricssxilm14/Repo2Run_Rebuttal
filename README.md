@@ -7,7 +7,9 @@ Table 1: Analysis of 382 failed cases of SWE-agent. "Configure fail" indicates t
 | 79(20.7%) | 170(44.5%) | 117(30.6%) | 16(4.2%) |
 
 
-Table 2: Language Support for Repo2Run Framework. It illustrates the various programming languages that can be supported by the Repo2Run framework by adjusting the base image and installation tools. This flexibility showcases the framework's capability to adapt to multiple languages, beyond just Python.
+Table 2: 
+
+Table 3: Language Support for Repo2Run Framework. It illustrates the various programming languages that can be supported by the Repo2Run framework by adjusting the base image and installation tools. This flexibility showcases the framework's capability to adapt to multiple languages, beyond just Python.
 | **Programming language**      | **Docker base image**                 | **Installation tool**                    |
 |---------------|--------------------------|-----------------------------|
 | Python        | python:[version]         | pip                         |
@@ -20,7 +22,7 @@ Table 2: Language Support for Repo2Run Framework. It illustrates the various pro
 | C/C++         | gcc:[version]            | custom build scripts        |
 | Rust          | rust:[version]           | cargo                       |
 
-Table 3: Statistics on Lines of Code (LOC) for repositories in our benchmark. The table below illustrates the statistics regarding the lines of code (LOC) of all repositories in the benchmark. It separately counts the number of repositories with LOC greater than 10,000 and greater than 100,000. The last two rows provide reference LOC for well-known industry-level repositories.
+Table 4: Statistics on Lines of Code (LOC) for repositories in our benchmark. The table below illustrates the statistics regarding the lines of code (LOC) of all repositories in the benchmark. It separately counts the number of repositories with LOC greater than 10,000 and greater than 100,000. The last two rows provide reference LOC for well-known industry-level repositories.
 | **Configuration state** | **#LOC > 10,000** | **#LOC > 100,000** | **Medium** | **Max** |
 |----------|----------|----------|----------|----------|
 | Success(361) | 220(60.9%) | 27(7.5%) |14,578|6,431,084|
@@ -29,5 +31,5 @@ Table 3: Statistics on Lines of Code (LOC) for repositories in our benchmark. Th
 | requests(reference) | ✅ | - |12,782|12,782|
 | pandas(reference) | ✅ | ✅ |571,849|571,849|
 
-Table 4: Evaluation of Repo2Run on 73 popular industry-grade repositories. The repositories were selected from [GitHub Ranking](https://github.com/EvanLi/Github-Ranking/blob/master/Top100/Python.md), filtering out those without tests and with #LOC < 10,000.
+Table 5: Evaluation of Repo2Run on 61 popular industry-grade repositories. The repositories were selected from [GitHub Ranking](https://github.com/EvanLi/Github-Ranking/blob/master/Top100/Python.md), filtering out those without tests and with #LOC < 10,000.
 
