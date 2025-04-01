@@ -70,7 +70,7 @@ Table 7: Evaluation of removing the rollback mechanism.
 | w/o rollback mechanism | 96.9% (407) (↓3.1%) | 83.6% (351) (↓2.4%) |
 | Repo2Run | 100% (420) | 86.0% (361) |
 
-Table 8: 30 examples of "pollution" during pip installation.
+Table 8: 30 examples of "pollution" during pip installation. Package_name represents the name of the package that failed to download, "pollution" represents other packages introduced by the failed download, and "pollution" count represents the number of these introduced packages.
 | package_name | "pollution" | "pollution" count |
 |----------|----------|----------|
 | zbarlight | pillow | 1 |
