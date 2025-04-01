@@ -19,7 +19,7 @@ Table 2: Language Support for Repo2Run Framework. It illustrates the various pro
 | C/C++         | gcc:[version]            | custom build scripts        |
 | Rust          | rust:[version]           | cargo                       |
 
-Table 3: Data Table for Different Fields.
+Table 3: Data Table for Different Fields. We classify repositories in the following categories as ML/AI repositories: "Artificial Intelligence", "Reinforcement Learning", "Machine Learning", "Deep Learning", and "Large Language Models". The count of ML/AI repositories is 204 (48.57%).
 | Type                  | Count | Type                  | Count |
 |---------------------------|------|---------------------------|------|
 | Artificial Intelligence   | 1    | Reinforcement Learning    | 6    |
@@ -35,7 +35,7 @@ Table 3: Data Table for Different Fields.
 | Database                  | 5    | Data Science              | 36   |
 | Cloud Computing           | 5    | Natural Language Processing | 47  |
 | Containerization          | 5    | Deep Learning             | 53   |
-| Frontend Development      | 6    | Large Models              | 135  |
+| Frontend Development      | 6    | Large Language Models     | 135  |
 
 
 Table 4: Statistics on Lines of Code (LOC) for repositories in our benchmark. The table below illustrates the statistics regarding the lines of code (LOC) of all repositories in the benchmark. It separately counts the number of repositories with LOC greater than 10,000 and greater than 100,000. The last two rows provide reference LOC for well-known industry-level repositories.
