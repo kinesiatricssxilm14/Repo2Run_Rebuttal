@@ -19,11 +19,7 @@ Table 2: Language Support for Repo2Run Framework. It illustrates the various pro
 | C/C++         | gcc:[version]            | custom build scripts        |
 | Rust          | rust:[version]           | cargo                       |
 
-Table 3: 
-# Data Table for Different Fields
-
-# Data Table for Different Fields
-
+Table 3: Data Table for Different Fields.
 | Type                  | Count | Type                  | Count |
 |---------------------------|------|---------------------------|------|
 | Artificial Intelligence   | 1    | Reinforcement Learning    | 6    |
