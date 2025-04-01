@@ -54,17 +54,17 @@ Table 5: Evaluation of Repo2Run on 59 popular industry-grade repositories. The r
 | Fail(29) | 29(100%) | 24(82.6%) |333,464|2,669,973|
 | All(59) | 59(100%)| 40(9.3%) |124,352|2,669,973|
 
-Table 6: 
+Table 6: Additional configuration of 30 industry-grade repositories.
 
 | Repository                                            | #LOC | Repository                                            | #LOC | Repository                                            | #LOC |
 |-------------------------------------------------------|------------|-------------------------------------------------------|------------|-------------------------------------------------------|------------|
-| comfyanonymous/ComfyUI                                |            | OpenBB-finance/OpenBB                                 |            | scrapy/scrapy                                         |            |
-| yt-dlp/yt-dlp                                         |            | keras-team/keras                                      |            | AUTOMATIC1111/stable-diffusion-webui                  |            |
-| pallets/flask                                         |            | geekan/MetaGPT                                        |            | psf/black                                             |            |
-| deepfakes/faceswap                                    |            | streamlit/streamlit                                   |            | psf/requests                                          |            |
-| lllyasviel/Fooocus                                    |            | labmlai/annotated_deep_learning_paper_implementations |            | RVC-Boss/GPT-SoVITS                                   |            |
-| mingrammer/diagrams                                   |            | OpenInterpreter/open-interpreter                      |            | hiyouga/LLaMA-Factory                                 |            |
-| nvbn/thefuck                                          |            | pandas-dev/pandas                                     |            | ytdl-org/youtube-dl                                   |            |
-| TheAlgorithms/Python                                  |            | fastapi/fastapi                                       |            | Textualize/rich                                       |            |
-| All-Hands-AI/OpenHands                                |            | Stability-AI/stablediffusion                          |            | ultralytics/ultralytics                               |            |
-| gradio-app/gradio                                     |            | QuivrHQ/quivr                                         |            | freqtrade/freqtrade                                   |            |
+| comfyanonymous/ComfyUI                                | 737,543    | OpenBB-finance/OpenBB                                 | 2,389,065  | scrapy/scrapy                                         | 77,278     |
+| yt-dlp/yt-dlp                                         | 155,662    | keras-team/keras                                      | 204,537    | AUTOMATIC1111/stable-diffusion-webui                  | 40,448     |
+| pallets/flask                                         | 25,190     | geekan/MetaGPT                                        | 82,305     | psf/black                                             | 118,551    |
+| deepfakes/faceswap                                    | 74,690     | streamlit/streamlit                                   | 201,894    | psf/requests                                          | 12,782     |
+| lllyasviel/Fooocus                                    | 328,199    | labmlai/annotated_deep_learning_paper_implementations | 510,851    | RVC-Boss/GPT-SoVITS                                   | 34,658     |
+| mingrammer/diagrams                                   | 11,994     | OpenInterpreter/open-interpreter                      | 15,818     | hiyouga/LLaMA-Factory                                 | 76,000     |
+| nvbn/thefuck                                          | 10,267     | pandas-dev/pandas                                     | 571,849    | ytdl-org/youtube-dl                                   | 96,157     |
+| TheAlgorithms/Python                                  | 419,917    | fastapi/fastapi                                       | 177,120    | Textualize/rich                                       | 45,744     |
+| All-Hands-AI/OpenHands                                | 160,514    | Stability-AI/stablediffusion                          | 13,698     | ultralytics/ultralytics                               | 94,201     |
+| gradio-app/gradio                                     | 184,722    | QuivrHQ/quivr                                         | 10,264     | freqtrade/freqtrade                                   | 188,889    |
