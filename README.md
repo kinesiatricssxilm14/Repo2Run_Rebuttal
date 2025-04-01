@@ -64,8 +64,42 @@ Table 6: Successful additional configuration of 30 industry-grade repositories.
 | All-Hands-AI/OpenHands                                | 160,514    | Stability-AI/stablediffusion                          | 13,698     | ultralytics/ultralytics                               | 94,201     |
 | gradio-app/gradio                                     | 184,722    | QuivrHQ/quivr                                         | 10,264     | freqtrade/freqtrade                                   | 188,889    |
 
-Table 7: Evaluation result of removing the rollback mechanism.
+Table 7: Evaluation of removing the rollback mechanism.
 | Metric | DGSR | ECSR |
 |----------|----------|----------|
 | w/o rollback mechanism | 96.9% (407) (↓3.1%) | 83.6% (351) (↓2.4%) |
 | Repo2Run | 100% (420) | 86.0% (361) |
+
+Table 8: 30 examples of "pollution" during pip installation.
+| package_name | "pollution" | "pollution" count |
+|----------|----------|----------|
+| zbarlight | pillow | 1 |
+| mxnet-cu91 | chardet, idna, urllib3 | 3 |
+| texthero | blis, catalogue, certifi, charset-normalizer, click, ... | 41 |
+| url | six | 1 |
+| robotframework-ride | certifi, charset-normalizer, idna, numpy, packaging, ... | 10 |
+| adb | libusb1, typing | 2 |
+| onegov-core | fastcache, mailthon, passlib, polib, pytz, ... | 12 |
+| postal | six | 1 |
+| changes | requests | 1 |
+| mxnet-cu75mkl | chardet, idna, urllib3 | 3 |
+| winpdb | numpy, six | 2 |
+| slybot | attrs, Automat, certifi, chardet, charset-normalizer, ... | 30 |
+| fbprophet | aiohappyeyeballs, aiohttp, aiosignal, appdirs, async-timeout, ... | 44 |
+| mxnet-cu75 | chardet, idna, urllib3 | 3 |
+| libarchive | nose | 1 |
+| atari-py | numpy, six | 2 |
+| reppy | cachetools, certifi, charset-normalizer, idna, python-dateutil, ... | 8 |
+| sovrin | leveldb, libnacl, msgpack-python, orderedset, Pympler, ... | 15 |
+| scrapely | numpy, six, w3lib | 3 |
+| kevinsr | python-version | 1 |
+| pysurvive | colored, numpy, pillow, psutil, pygtrie, ... | 6 |
+| horovod | cffi, cloudpickle, packaging, psutil, PyYAML, ... | 6 |
+| cupy | fastrlock, numpy | 2 |
+| face-recognition | face-recognition-models | 1 |
+| nsot | gunicorn, idna, ipaddress, ipython, itypes, ... | 15 |
+| gooey | colored, numpy, pillow, psutil, pygtrie, ... | 6 |
+| wxpython | numpy, six | 2 |
+| neuralcoref | annotated-types, blis, boto3, botocore, catalogue, ... | 47 |
+| apache-airflow-backport-providers-apache-hive | apispec, argcomplete, attrs, babel, cached-property, ... | 58 |
+| bcolz | numpy | 1 |
