@@ -63,3 +63,9 @@ Table 6: Successful additional configuration of 30 industry-grade repositories.
 | TheAlgorithms/Python                                  | 419,917    | fastapi/fastapi                                       | 177,120    | Textualize/rich                                       | 45,744     |
 | All-Hands-AI/OpenHands                                | 160,514    | Stability-AI/stablediffusion                          | 13,698     | ultralytics/ultralytics                               | 94,201     |
 | gradio-app/gradio                                     | 184,722    | QuivrHQ/quivr                                         | 10,264     | freqtrade/freqtrade                                   | 188,889    |
+
+Table 7: Evaluation result of removing the rollback mechanism.
+| Metric | DGSR | ECSR |
+|----------|----------|----------|
+| w/o rollback mechanism | 96.9% (407) (↓3.1%) | 83.6% (351) (↓2.4%) |
+| Repo2Run | 100% (420) | 86.0% (361) |
