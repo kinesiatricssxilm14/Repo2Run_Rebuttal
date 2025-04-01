@@ -19,9 +19,8 @@ Table 2: Language Support for Repo2Run Framework. It illustrates the various pro
 | C/C++         | gcc:[version]            | custom build scripts        |
 | Rust          | rust:[version]           | cargo                       |
 
-![nodejs_design](nodejs_design.png)
-
 Figure 1: Our design for applying Repo2Run to Node.js.
+![nodejs_design](nodejs_design.png)
 
 Table 3: Data table for 28 fields of 420 repositories in our benchmark. We classify repositories in the following categories as ML/AI repositories: "Artificial Intelligence", "Reinforcement Learning", "Machine Learning", "Deep Learning", and "Large Language Models". The count of ML/AI repositories is 204 (48.57%).
 | Type                    | Count | Type                      | Count | Type                             | Count |
